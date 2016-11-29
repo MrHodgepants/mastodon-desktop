@@ -1,0 +1,38 @@
+{
+  "name": "mastodon-desktop",
+  "version": "0.1",
+  "description": "Mastodon Desktop App",
+  "keywords": [
+    "node-webkit",
+    "nwjs",
+    "mastodon",
+    "app"
+  ],
+  "homepage": "https://github.com/MrHodgepants/mastodon-desktop",
+  "author": "Chris Hogan",
+  "license": {
+    "type": "Public Domain",
+    "url": "https://passcod.name/PUBLIC.txt"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "engines": {
+    "node-webkit": ">=0.10.0"
+  },
+  "main": "index.html",
+  "nodejs": true,
+  "single-instance": false,
+  "user-agent": "Mozilla/5.0 (%osinfo) WebKit/%webkit_ver NodeWebkit/%nwver mastodon-desktop/%version",
+  "window": {
+    "icon": "icon.png",
+    "toolbar": false,
+    "height": 700,
+    "width": 1324,
+    "min_width": 370,
+    "title": "mastodon.social",
+    "position": "center",
+    "resizable": true
+  }
+}
